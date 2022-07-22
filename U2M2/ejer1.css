@@ -1,0 +1,42 @@
+* {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+}
+
+.contenedor {
+        border: 2px solid black;
+        margin: 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        height: 600px;
+        width: 600px;
+
+
+
+}
+
+.contenedor div {
+        width: 200px;
+        height: 200px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.rojo {
+        background-color: red;
+
+}
+
+.azul {
+        background-color: blue;
+
+}
+
+.verde {
+
+        background-color: green;
+}

@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+#conte {
+    background-color: white;
+    display: flex;
+    flex-direction: row-reverse;
+
+    align-items: center;
+    width: 600px;
+    height: 600px;
+    margin: 30%;
+
+}
+
+#conte div {
+
+    border: 2px solid yellow;
+    width: 200px;
+    height: 200px;
+    color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#rojo {
+    background-color: rgb(236, 75, 75);
+
+}
+
+#azul {
+    background-color: blue;
+
+}
+
+#verde {
+    background-color: green;
+
+
+}
